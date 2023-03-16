@@ -1,0 +1,97 @@
+{
+    "list": [
+        {
+            "id": 5665812165689344,
+            "title": "पैसाका कुरा",
+            "summary": "परिवार चलाउन चाहिने श्रोत, खर्च र बचतका कुरा ।nपैसाकावारेमा मानिसका बुझाई, अनुभव, र अनुभूतिका कथा ।nसाथमा पैसाको व्यवस्थापनका वारेमा विज्ञको रायसल्लाह",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/4819823842295808/images/bb60c78a-a3ae-4201-9d9b-50a9960bf9da.jpg",
+            "author": "Sharecast Initiative Nepal"
+        },
+        {
+            "id": 5682639210020864,
+            "title": "Paisa Aa Jinagi",
+            "summary": "",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5752272516546560/images/af97eb53-272e-4512-bbab-78e4ab10991a.png",
+            "author": "Radheshyam & Bimla"
+        },
+     
+        {
+            "id": 5685417051422720,
+            "title": "पैसाका कुरा - सुनसरी",
+            "summary": "पैसाको व्यबस्थापन र खर्चको हिसाव किताब । ",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5659118702428160/images/d4ad10b2-b8c5-4c63-aa46-4c3cf9cff7b7.jpg",
+            "author": "सुमन पुरी"
+        },
+        {
+            "id": 5740443367112704,
+            "title": "पैसाका कुरा - बाँके",
+            "summary": "",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5691726094139392/images/5d754d37-b045-44b4-9646-89c0fb14d406.png",
+            "author": ""
+        },
+       
+        {
+            "id": 5760472410226688,
+            "title": "पैसाका कुरा - कञ्चनपुर",
+            "summary": "Paishaka kura ",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5182915545661440/images/5b133304-9c2b-4f20-b2a0-23fb3a545f52.jpg",
+            "author": "Jaidev Josji"
+        },
+        {
+            "id": 5877632805634048,
+            "title": "पैसाका कुरा",
+            "summary": "घरपरिवामा हुने पैसाका कुरा",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5699257587728384/images/0e698494-334c-46b5-9534-1b1c49ee9c90.jpg",
+            "author": ""
+        },
+        {
+            "id": 5751851873992704,
+            "title": "पैसाका कुरा - नवलपरासी",
+            "summary": "बचतका कुरा, आम्दानीका कुरा खर्चका कुरा र किनमेलका कुरा समग्रमा पैसाका कुरा ",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5720929187397632/images/ffdf89b0-4d8d-46c8-9d6c-7dd29f8787e0.jpg",
+            "author": "vijaya FM"
+        },
+        {
+            "id": 5718587262107648,
+            "title": "किताब  चर्चा ( Kitab Charcha )",
+            "summary": "पुस्तक किन पढ्ने, कसरी पढ्ने र केहि प्रतिनीधि पुस्कतको चर्चा यो पडकाष्ट श्रृखंलामा हुनेछ । ",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5718245774458880/images/4325031c-c4ec-414a-9c0b-dba30326db4e.png",
+            "author": "Hari Sharma"
+        },
+        {
+            "id": 5685399898816512,
+            "title": "Krishi Serophero",
+            "summary": "Krishi serophero by Birendra Tiwari",
+            "coverImage": "https://storage.googleapis.com/hamropatro-storage/assets/5719756801835008/images/d66881f9-758d-490c-b41b-efe1064c8a5d.jpg",
+            "author": "Birendra Tiwari"
+        },
+        {
+            "id": 5638585728368640,
+            "title": "प्रकृति",
+            "summary": "",
+            "coverImage": "https://sgp1.digitaloceanspaces.com/everestdb/hamropatro-backend/hp-cards/0e63c801-1e12-4fe4-a862-e745407ece29",
+            "author": "Swadesh FM"
+        },
+        {
+            "id": 5678129425154048,
+            "title": "सक्षम शिक्षक गुणस्तरीय शिक्षा",
+            "summary": "",
+            "coverImage": "https://sgp1.digitaloceanspaces.com/everestdb/hamropatro-backend/hp-cards/67df854b-1674-421b-9471-dc235bac6458",
+            "author": "Swadesh FM"
+        },
+        {
+            "id": 5702295002021888,
+            "title": "Back to Work",
+            "summary": "Back to Work is an award winning talk show with Merlin Mann and Dan Benjamin discussing productivity, communication, work, barriers, constraints, tools, and more. Hosted by Merlin Mann & Dan Benjamin.",
+            "coverImage": "http://icebox.5by5.tv/images/broadcasts/19/cover.jpg",
+            "author": "5by5"
+        },
+        {
+            "id": 5736829290545152,
+            "title": "Stuff You Should Know",
+            "summary": "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered.",
+            "coverImage": "https://images.megaphone.fm/5ZCaXzLSpYG4Y91IF81-TGDkXByLP0m-DdKj9EMVnc4/plain/s3://megaphone-prod/podcasts/1e705dd4-2de6-11e8-b55d-9ba6ddb3f75e/image/uploads_2F1546996139536-0o3pw93d8mk-d5f1143c14a746754c55efb478c66988_2FSKSKLogo-FINAL-iHR-3000x3000.png",
+            "author": "iHeartRadio"
+        }
+    ]
+}
