@@ -1,7 +1,56 @@
 {
     "gourl": "https://api.greatideasgreatlife.com/v4.1/books/url/book/{{id}}",
-    "dash":"https://api.greatideasgreatlife.com/v4.1/books?updated_at=1673401927&pagesize=400&page=2",
+    "dash":"https://api.greatideasgreatlife.com/v4.1/books?updated_at=1673401927&pagesize=400&page=1",
+    "don":"https://api.greatideasgreatlife.com/v4/books/zurl/{{id}}",
+    "d":"
     "aut": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjM2MDc1ODcsImlhdCI6MTY3ODk2MjkzN30.91dvsmk-wXbkMj0HecM097MZV6n8zoPCulWItphq2CE",
+    "langauges": [
+      {
+        "id": 1,
+        "name": "हिंदी (Hindi)",
+        "url": "https://images.greatideasgreatlife.com/language-icons/16221589277625.png",
+        "sort_order": 1,
+        "status": 1,
+        "created_at": 1621345168,
+        "updated_at": 1673934153
+      },
+      {
+        "id": 0,
+        "name": "English",
+        "url": "https://images.greatideasgreatlife.com/language-icons/16221589484363.png",
+        "sort_order": 2,
+        "status": 1,
+        "created_at": 1621345167,
+        "updated_at": 1624412337
+      },
+      {
+        "id": 2,
+        "name": "मराठी (Marathi)",
+        "url": "https://images.greatideasgreatlife.com/language-icons/16233007520698.png",
+        "sort_order": 3,
+        "status": 1,
+        "created_at": 1623300768,
+        "updated_at": 1673934587
+      },
+      {
+        "id": 3,
+        "name": "বাংলা (Bangla)",
+        "url": "https://images.greatideasgreatlife.com/language-icons/16494837817598.png",
+        "sort_order": 4,
+        "status": 1,
+        "created_at": 1649483795,
+        "updated_at": 1673934036
+      },
+      {
+        "id": 4,
+        "name": "தமிழ் (Tamil)",
+        "url": "https://images.greatideasgreatlife.com/language-icons/16677935969671.png",
+        "sort_order": 5,
+        "status": 1,
+        "created_at": 1667793606,
+        "updated_at": 1673934614
+      }
+    ],
     "categories": [
         {
             "id": 18,
