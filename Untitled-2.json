@@ -2,7 +2,7 @@
     "gourl": "https://api.greatideasgreatlife.com/v4.1/books/url/book/{{id}}",
     "dash":"https://api.greatideasgreatlife.com/v4.1/books?updated_at=1673401927&pagesize=400&page=1",
     "don":"https://api.greatideasgreatlife.com/v4/books/zurl/{{id}}",
-    "d":"
+    "d":"",
     "aut": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjM2MDc1ODcsImlhdCI6MTY3ODk2MjkzN30.91dvsmk-wXbkMj0HecM097MZV6n8zoPCulWItphq2CE",
     "langauges": [
       {
