@@ -1,68 +1,68 @@
 [
   {
-    "bankcode": "MADBL",
+    "bankcode": "EADBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031127S77.png",
     "name": "Agriculture Development Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "EBGlobal",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202202081634S1.png",
     "name": "Global SMART PLUS",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "EJBBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031128S09.png",
     "name": "Jyoti Bikas Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "EKUMARI",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S56.png",
     "name": "Kumari Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "EMUKTI",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031129S28.png",
     "name": "Muktinath Bikas Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "ENBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031126S83.png",
     "name": "Nepal Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
-    "bankcode": "NIBLEBANK",
+    "bankcode": "NIBLMBANK",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202301252012S3.jpg",
     "name": "Nepal Investment Mega Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "ENIC",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S42.png",
     "name": "NIC ASIA Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "EPRABHU",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S12.png",
     "name": "Prabhu Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "ERBB",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S09.png",
     "name": "Rastriya Banijya Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   },
   {
     "bankcode": "ESNBB",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031130S42.png",
     "name": "Shangri-la Development Bank",
-    "type": "EBANK"
+    "type": "MBANK"
   }
 ]
