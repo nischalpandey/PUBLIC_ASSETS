@@ -1,14 +1,8 @@
 [
   {
-    "bankcode": "EADBL",
+    "bankcode": "MADBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031127S77.png",
     "name": "Agriculture Development Bank",
-    "type": "EBANK"
-  },
-  {
-    "bankcode": "EGIBL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S1.png",
-    "name": "Global IME Bank",
     "type": "EBANK"
   },
   {
