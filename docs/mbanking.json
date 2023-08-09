@@ -1,182 +1,74 @@
 [
   {
-    "bankcode": "MBADBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031127S77.png",
+    "bankcode": "EADBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031127S77.png",
     "name": "Agriculture Development Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBBEST",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031130S7.png",
-    "name": "Best Finance",
-    "type": "MBANK"
+    "bankcode": "EGIBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S1.png",
+    "name": "Global IME Bank",
+    "type": "EBANK"
   },
   {
-    "bankcode": "MCITIZEN",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031127S41.png",
-    "name": "Citizens Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBEBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031134S57.png",
-    "name": "Everest Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBEXCEL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031130S71.png",
-    "name": "Excel Development Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBGRDBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202206011459S81.png",
-    "name": "Garima Bikas Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBGLOBAL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031123S1.png",
+    "bankcode": "EBGlobal",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202202081634S1.png",
     "name": "Global SMART PLUS",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBGREN",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031011S15.png",
-    "name": "Green Development Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBICFC",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031129S26.png",
-    "name": "ICFC Finance",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBJBBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031128S09.png",
+    "bankcode": "EJBBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031128S09.png",
     "name": "Jyoti Bikas Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBKAMANA",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031128S64.png",
-    "name": "Kamana Sewa Bikas Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBKUMARI",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031124S56.png",
+    "bankcode": "EKUMARI",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S56.png",
     "name": "Kumari Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBSUNRISE",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202307191134S65.png",
-    "name": "Laxmi Sunrise Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBLUBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031010S71.png",
-    "name": "Lumbini Bikas Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBMBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031125S75.png",
-    "name": "Machhapuchchhre  Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBMLBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202204271644S01.png",
-    "name": "Mahalaxmi Bikas Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBMFIL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031010S77.png",
-    "name": "Manjushree Finance",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MTDBLNPKA",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031130S12.png",
-    "name": "Miteri Development Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBMUKTI",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031129S28.png",
+    "bankcode": "EMUKTI",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031129S28.png",
     "name": "Muktinath Bikas Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBNBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031126S83.png",
+    "bankcode": "ENBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031126S83.png",
     "name": "Nepal Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBNFLTD",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031131S41.png",
-    "name": "Nepal Finance",
-    "type": "MBANK"
+    "bankcode": "NIBLEBANK",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202301252012S3.jpg",
+    "name": "Nepal Investment Mega Bank",
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBNIC",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031123S42.png",
+    "bankcode": "ENIC",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S42.png",
     "name": "NIC ASIA Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBPRABHU",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031123S12.png",
+    "bankcode": "EPRABHU",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S12.png",
     "name": "Prabhu Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBPCBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202104302111S29.png",
-    "name": "Prime Commercial Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBRBB",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031124S09.png",
+    "bankcode": "ERBB",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S09.png",
     "name": "Rastriya Banijya Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   },
   {
-    "bankcode": "MBSANIMA",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031126S02.png",
-    "name": "Sanima Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBSKDB",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031129S62.png",
-    "name": "Saptakoshi Development Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBSNBB",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031130S42.png",
+    "bankcode": "ESNBB",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031130S42.png",
     "name": "Shangri-la Development Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBSBL",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031125S05.png",
-    "name": "Siddhartha Bank",
-    "type": "MBANK"
-  },
-  {
-    "bankcode": "MBSINDHU",
-    "img": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/img-202201031131S09.png",
-    "name": "Sindhu Bikas Bank",
-    "type": "MBANK"
+    "type": "EBANK"
   }
 ]
