@@ -1,4 +1,53 @@
-{
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumbo Combo Course</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="courseTitle"></h1>
+        <p id="courseDescription"></p>
+    </header>
+    
+    <section>
+        <h2>Course Details</h2>
+        <ul>
+            <li><strong>Level:</strong> <span id="courseLevel"></span></li>
+            <li><strong>Language:</strong> <span id="courseLanguage"></span></li>
+            <li><strong>Price:</strong> <span id="coursePrice"></span></li>
+            <li><strong>Discount Price:</strong> <span id="courseDiscountPrice"></span></li>
+            <li><strong>Purchase Expires On:</strong> <span id="courseExpiration"></span> days</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Course Curriculum</h2>
+        <div id="courseCurriculum"></div>
+    </section>
+
+    <section>
+        <h2>Course Lectures</h2>
+        <ul id="lectureList"></ul>
+    </section>
+
+    <section>
+        <h2>Study Materials</h2>
+        <div id="studyMaterials"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
+
+    <script>
+        // JSON data from the provided object
+        const courseData = {
   "id": 17,
   "title": "Fundamental Analysis, Technical Analysis & The Trader's Mind - Jumbo - Combo Course",
   "description": "<p>The &quot;Fundamental Analysis, Technical Analysis &amp; The Trader&#39;s Mind - Jumbo - Combo Course&quot; aims to provide a comprehensive understanding of the three essential pillars of successful trading: fundamental analysis, technical analysis, and the psychological aspects of trading (the trader&#39;s mind). Offered by Ideapreneur Nepal and published in Money Mitra, this course is designed for individuals interested in learning how to analyze financial markets, make informed trading decisions, and manage their emotions effectively while trading.</p>\r\n\r\n<ol>\r\n\t<li><strong>Fundamental Analysis: This segment of the course delves into the analysis of the intrinsic value of financial assets, such as stocks, bonds, and commodities. Topics covered may include:</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Understanding financial statements: Learning to read and interpret income statements, balance sheets, and cash flow statements of companies.</li>\r\n\t<li>Evaluating key financial ratios: Analyzing metrics like price-to-earnings (P/E) ratio, earnings per share (EPS), debt-to-equity ratio, and more.</li>\r\n\t<li>Assessing industry and economic trends: Identifying macroeconomic factors and industry-specific dynamics that can impact asset prices.</li>\r\n\t<li>Company valuation methods: Exploring various valuation techniques like discounted cash flow (DCF) analysis, comparable company analysis, and asset-based valuation.</li>\r\n</ul>\r\n\r\n<ol start=\"2\">\r\n\t<li><strong>Technical Analysis: The technical analysis portion focuses on studying historical price and volume data to forecast future price movements. Topics covered may include:</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Chart patterns: Recognizing common patterns like head and shoulders, double tops/bottoms, and triangles.</li>\r\n\t<li>Technical indicators: Understanding and using indicators such as moving averages, Relative Strength Index (RSI), Moving Average Convergence Divergence (MACD), etc.</li>\r\n\t<li>Support and resistance: Identifying critical levels where asset prices are likely to reverse.</li>\r\n\t<li>Candlestick analysis: Interpreting candlestick patterns for predicting market sentiment and price trends.</li>\r\n</ul>\r\n\r\n<ol start=\"3\">\r\n\t<li><strong>The Trader&#39;s Mind: This section addresses the psychological aspects of trading and risk management:</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Emotion management: Learning to control fear and greed, which can lead to impulsive decisions.</li>\r\n\t<li>Developing a trading plan: Creating a structured approach to trading that includes entry and exit strategies, risk tolerance, and position sizing.</li>\r\n\t<li>Risk management: Understanding how to protect capital and limit losses through proper risk management techniques.</li>\r\n\t<li>Trading discipline: Cultivating the necessary discipline to stick to the trading plan and avoid emotional decision-making.</li>\r\n</ul>",
@@ -2254,4 +2303,30 @@
     "designation": "Entrepreneur",
     "description": ""
   }
-}
+};
+
+        // Populate HTML elements with JSON data
+        document.getElementById("courseTitle").textContent = courseData.title;
+        document.getElementById("courseDescription").innerHTML = courseData.description;
+        document.getElementById("courseLevel").textContent = courseData.level;
+        document.getElementById("courseLanguage").textContent = courseData.language;
+        document.getElementById("coursePrice").textContent = `$${courseData.price}`;
+        document.getElementById("courseDiscountPrice").textContent = `$${courseData.discount_price}`;
+        document.getElementById("courseExpiration").textContent = courseData.purchase_expires_on;
+
+        // Display curriculum
+        document.getElementById("courseCurriculum").innerHTML = courseData.curriculum;
+
+        // Populate course lectures
+        const lectureList = document.getElementById("lectureList");
+        courseData.course_lecture.forEach((lecture) => {
+            const li = document.createElement("li");
+            li.innerHTML = `<strong>${lecture.title}:</strong> ${lecture.description}<br><iframe src="${lecture.embed_url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+            lectureList.appendChild(li);
+        });
+
+        // Display study materials
+        document.getElementById("studyMaterials").innerHTML = courseData.study_materials;
+    </script>
+</body>
+</html>
