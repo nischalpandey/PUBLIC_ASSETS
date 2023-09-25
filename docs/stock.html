@@ -42,7 +42,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Website Name</p>
+        <p>&copy; 2023 Nischal PAndey</p>
     </footer>
 
     <script>
@@ -2321,7 +2321,12 @@
         const lectureList = document.getElementById("lectureList");
         courseData.course_lecture.forEach((lecture) => {
             const li = document.createElement("li");
-            li.innerHTML = `<strong>${lecture.title}:</strong> ${lecture.description}<br><iframe src="${lecture.embed_url}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`;
+            const link = document.createElement("a");
+            link.href = lecture.embed_url;
+            link.target = "_blank";
+            link.textContent = `${lecture.title} - ${lecture.sub_course_title}`;
+            li.appendChild(link);
+            li.innerHTML += `: ${lecture.description}`;
             lectureList.appendChild(li);
         });
 
