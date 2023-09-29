@@ -2295,7 +2295,35 @@
     "description": ""
   }
 };
-var dddm = [
+
+        // Populate HTML elements with JSON data
+        document.getElementById("courseTitle").textContent = courseData.title;
+        document.getElementById("courseDescription").innerHTML = courseData.description;
+        document.getElementById("courseLevel").textContent = courseData.level;
+        document.getElementById("courseLanguage").textContent = courseData.language;
+        document.getElementById("coursePrice").textContent = `$${courseData.price}`;
+        document.getElementById("courseDiscountPrice").textContent = `$${courseData.discount_price}`;
+        document.getElementById("courseExpiration").textContent = courseData.purchase_expires_on;
+
+        // Display curriculum
+        document.getElementById("courseCurriculum").innerHTML = courseData.curriculum;
+
+        // Populate course lectures
+        const lectureList = document.getElementById("lectureList");
+        courseData.course_lecture.forEach((lecture) => {
+            const li = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = lecture.embed_url;
+            link.target = "_blank";
+            link.textContent = `${lecture.title} - ${lecture.sub_course_title}`;
+            li.appendChild(link);
+            li.innerHTML += `: ${lecture.description}`;
+            lectureList.appendChild(li);
+        });
+
+        // Display study materials
+        document.getElementById("studyMaterials").innerHTML = courseData.study_materials;
+        var dddm = [
     , 
       {
       "id": 47,
@@ -2478,34 +2506,7 @@ var dddm = [
       "sub_course_title": null,
       "completed": false,
       "watched": false
-    }]
-        // Populate HTML elements with JSON data
-        document.getElementById("courseTitle").textContent = courseData.title;
-        document.getElementById("courseDescription").innerHTML = courseData.description;
-        document.getElementById("courseLevel").textContent = courseData.level;
-        document.getElementById("courseLanguage").textContent = courseData.language;
-        document.getElementById("coursePrice").textContent = `$${courseData.price}`;
-        document.getElementById("courseDiscountPrice").textContent = `$${courseData.discount_price}`;
-        document.getElementById("courseExpiration").textContent = courseData.purchase_expires_on;
-
-        // Display curriculum
-        document.getElementById("courseCurriculum").innerHTML = courseData.curriculum;
-
-        // Populate course lectures
-        const lectureList = document.getElementById("lectureList");
-        courseData.course_lecture.forEach((lecture) => {
-            const li = document.createElement("li");
-            const link = document.createElement("a");
-            link.href = lecture.embed_url;
-            link.target = "_blank";
-            link.textContent = `${lecture.title} - ${lecture.sub_course_title}`;
-            li.appendChild(link);
-            li.innerHTML += `: ${lecture.description}`;
-            lectureList.appendChild(li);
-        });
-
-        // Display study materials
-        document.getElementById("studyMaterials").innerHTML = courseData.study_materials;
+    }];
     </script>
 </body>
 </html>
