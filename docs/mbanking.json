@@ -8,13 +8,33 @@
   {
     "bankcode": "EBGlobal",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202202081634S1.png",
-    "name": "Global SMART PLUS",
+    "name": "Global IME Bank",
     "type": "MBANK"
-  },
-  {
+  }, {
     "bankcode": "EJBBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031128S09.png",
     "name": "Jyoti Bikas Bank",
+    "type": "MBANK"
+  },{
+    "bankcode": "MBLAXMI",
+    "logo": "https://th.bing.com/th?id=OIP.erJObhyTnDgP_u1HOUA5XQHaHa&w=80&h=80&c=1&vt=9&bgcl=549c57&r=0&o=6&pid=5.1",
+    "name": "Laxmi Sunrise Bank",
+    "type": "MBANK"
+  },{
+    "bankcode": "MBSBL",
+    "logo": "https://www.siddharthabank.com/assets/backend/uploads/Logo/logo-new.png",
+    "name": "Siddhartha Bank",
+    "type": "MBANK"
+  },{
+    "bankcode": "MBSANIMA",
+    "logo": "https://www.bing.com/th?id=OIP.Go_zQmwloN2IZTmzJa1t4wHaGH&w=101&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "name": "Sanima Bank",
+    "type": "MBANK"
+  },
+  {
+    "bankcode": "MBEBL",
+    "logo": "https://everestbankltd.com/wp-content/themes/everestbank/assets/imgs/everest-bank_logo_main.png?v=1.1",
+    "name": "Everest Bank",
     "type": "MBANK"
   },
   {
@@ -35,14 +55,15 @@
     "name": "Nepal Bank",
     "type": "MBANK"
   },
-  {
-    "bankcode": "NIBLMBANK",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202301252012S3.jpg",
-    "name": "Nepal Investment Mega Bank",
+ {
+    "bankcode": "MBPCBL",
+    "logo": "https://th.bing.com/th?id=OIP.X458HCW-AHbCd3ZAhssljAAAAA&w=318&h=179&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "name": "Prime Bank",
     "type": "MBANK"
   },
+
   {
-    "bankcode": "ENIC",
+    "bankcode": "MBNIC",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S42.png",
     "name": "NIC ASIA Bank",
     "type": "MBANK"
@@ -51,6 +72,11 @@
     "bankcode": "EPRABHU",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S12.png",
     "name": "Prabhu Bank",
+    "type": "MBANK"
+  },  {
+    "bankcode": "MBNABIL",
+    "logo": "https://th.bing.com/th?id=OIP.R7SQa-bCVzAKKlQVUMaT_wHaEH&w=335&h=186&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+    "name": "Nabil Bank",
     "type": "MBANK"
   },
   {
