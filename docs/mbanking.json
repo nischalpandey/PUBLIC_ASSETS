@@ -36,11 +36,17 @@
     "bankcode": "MBRBB",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S09.png"
   },
-  {
-    "type": "MBANK",
+ {
+    "bankcode": "EBGlobal",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202202081634S1.png",
     "name": "Global IME Bank",
-    "bankcode": "MBGLOBAL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S1.png"
+    "type": "MBANK"
+  },
+    {
+    "bankcode": "MBNABIL",
+    "logo": "https://sharealpha.ngp.com.np/api/stockimg/NABIL.png",
+    "name": "Nabil Bank",
+    "type": "MBANK"
   },
   {
     "type": "MBANK",
