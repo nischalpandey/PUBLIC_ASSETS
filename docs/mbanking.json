@@ -2,6 +2,60 @@
   
   {
     "type": "MBANK",
+    "name": "Everest Bank",
+    "bankcode": "MBEBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031134S57.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Siddhartha Bank",
+    "bankcode": "MBSBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031125S05.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "NIC ASIA Bank",
+    "bankcode": "MBNIC",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S42.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Prabhu Bank",
+    "bankcode": "MBPRABHU",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S12.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Prime Commercial Bank",
+    "bankcode": "MBPCBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202104302111S29.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Rastriya Banijya Bank",
+    "bankcode": "MBRBB",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S09.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Global IME Bank",
+    "bankcode": "MBGLOBAL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S1.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Green Development Bank",
+    "bankcode": "MBGREN",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031011S15.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "ICFC Finance",
+    "bankcode": "MBICFC",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031129S26.png"
+  },
+  {
+    "type": "MBANK",
     "name": "Agricultural Development Bank",
     "bankcode": "MBADBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031127S77.png"
@@ -17,42 +71,6 @@
     "name": "Citizens Bank",
     "bankcode": "MCITIZEN",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031127S41.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Everest Bank",
-    "bankcode": "MBEBL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031134S57.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Excel Development Bank",
-    "bankcode": "MBEXCEL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031130S71.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Garima Bikas Bank",
-    "bankcode": "MBGRDBL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202206011459S81.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Global SMART PLUS",
-    "bankcode": "MBGLOBAL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S1.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Green Development Bank",
-    "bankcode": "MBGREN",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031011S15.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "ICFC Finance",
-    "bankcode": "MBICFC",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031129S26.png"
   },
   {
     "type": "MBANK",
@@ -126,30 +144,7 @@
     "bankcode": "MBNFLTD",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031131S41.png"
   },
-  {
-    "type": "MBANK",
-    "name": "NIC ASIA Bank",
-    "bankcode": "MBNIC",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S42.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Prabhu Bank",
-    "bankcode": "MBPRABHU",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031123S12.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Prime Commercial Bank",
-    "bankcode": "MBPCBL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202104302111S29.png"
-  },
-  {
-    "type": "MBANK",
-    "name": "Rastriya Banijya Bank",
-    "bankcode": "MBRBB",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031124S09.png"
-  },
+
   {
     "type": "MBANK",
     "name": "Sanima Bank",
@@ -164,9 +159,15 @@
   },
   {
     "type": "MBANK",
-    "name": "Siddhartha Bank",
-    "bankcode": "MBSBL",
-    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031125S05.png"
+    "name": "Excel Development Bank",
+    "bankcode": "MBEXCEL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031130S71.png"
+  },
+  {
+    "type": "MBANK",
+    "name": "Garima Bikas Bank",
+    "bankcode": "MBGRDBL",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202206011459S81.png"
   },
   {
     "type": "MBANK",
