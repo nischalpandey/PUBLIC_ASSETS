@@ -6,6 +6,12 @@
     "type": "EBANK"
   },
   {
+    "type": "EBANK",
+    "name": "Global IME Bank",
+    "bankcode": "EBGlobal",
+    "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202202081634S1.png"
+  },
+  {
     "bankcode": "EJBBL",
     "logo": "https://apigateway.nepalpayment.com/UploadedImages/PaymentInstitution/LogoUrl-202201031128S09.png",
     "name": "Jyoti Bikas Bank",
