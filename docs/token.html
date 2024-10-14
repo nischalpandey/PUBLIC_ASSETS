@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <p id="result"></p>
+
+  <script>
+    async function loadWasmModule() {
+      const response = await fetch('css.wasm');
+      const buffer = await response.arrayBuffer();
+      const wasmModule = await WebAssembly.instantiate(buffer);
+      return wasmModule.instance.exports;
+    }
+
+    // Function to get query parameters
+    function getQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('data'); // Get 'data' from query parameters
+    }
+
+    async function parseToken() {
+      const wasmInstance = await loadWasmModule();
+      const { cdx, rdx, bdx, ndx, mdx } = wasmInstance;
+
+      const inputData = getQueryParams(); // Fetch 'data' from query params
+
+      if (!inputData) {
+        document.getElementById('result').innerText = 'No data found in query parameters';
+        return;
+      }
+
+      const decodedData = atob(inputData);
+      const restoken = JSON.parse(decodedData);
+
+      const salts = [
+        restoken.salt1,
+        restoken.salt2,
+        restoken.salt3,
+        restoken.salt4,
+        restoken.salt5,
+      ];
+
+      const n = cdx(...salts);
+      const l = rdx(...salts);
+      const o = bdx(...salts);
+      const p = ndx(...salts);
+      const q = mdx(...salts);
+
+      const indices = [n, l, o, p, q];
+      const token = restoken.accessToken;
+      let result = '';
+      let prevIndex = 0;
+
+      indices.forEach(index => {
+        result += token.slice(prevIndex, index);
+        prevIndex = index + 1;
+      });
+
+      result += token.slice(prevIndex);
+      const finalResult = 'Salter ' + result;
+
+      // Display the result
+      document.getElementById('result').innerText = finalResult;
+
+      // Return result as JSON
+      return {
+        accessToken: finalResult
+      };
+    }
+
+    // Call parseToken on page load
+    window.onload = parseToken;
+  </script>
+</body>
+</html>
